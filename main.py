@@ -34,8 +34,8 @@ app.config.update(
 # Configure your OAuth provider (e.g., Google)
 oauth.register(
     name='google',
-    client_id=env('GOOGLE_LOCAL_CLIENT_ID'),
-    client_secret=env('GOOGLE_LOCAL_CLIENT_SECRET'),
+    client_id=env('GOOGLE_CLIENT_ID'),
+    client_secret=env('GOOGLE_CLIENT_SECRET'),
     server_metadata_url='https://accounts.google.com/.well-known/openid-configuration',
     client_kwargs={'scope': 'openid profile email'}
 )
