@@ -1,0 +1,11 @@
+gunicorn    # necesario para desplegar en Heroku o en Docker
+environs
+Flask
+pymongo
+dnspython
+Authlib
+werkzeug
+cloudinary
+geopy
+requests
+folium
